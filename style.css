@@ -127,11 +127,12 @@ nav button {
 
 .section1 {
     position: relative;
+    margin-left: ;
 }
 
 .section1-round {
     margin-top: 200px;
-    margin-left: 250px;
+    margin-left: 350px;
     width: 694px;
     height: 694px; 
     border: 24px solid #608BFF;
@@ -143,7 +144,7 @@ nav button {
 .circle-blue {
     position: absolute;
     top: 240px;
-    left: 586px;
+    left: 706px;
     width: 330px;
     height: 330px;
     background: #fff;
@@ -197,7 +198,7 @@ nav button {
 .circle-orange {
     position: absolute;
     top: 550px;
-    left: 286px;
+    left: 326px;
     width: 330px;
     height: 330px;
     background: #fff;
@@ -249,7 +250,7 @@ nav button {
 .circle-orange2 {
     position: absolute;
     top: 550px;
-    left: 886px;
+    left: 1006px;
     width: 330px;
     height: 330px;
     background: #fff;
@@ -262,7 +263,7 @@ nav button {
 .circle-blue2 {
     position: absolute;
     top: 850px;
-    left: 570px;
+    left: 689px;
     width: 330px;
     height: 330px;
     background: #fff;
@@ -301,7 +302,7 @@ nav button {
 }
 
 .section2-row {
-    margin-top: 200;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -420,4 +421,10 @@ footer a {
     text-decoration: none;
     color: #C0C0C0;
     font-size: 21px;
+}
+
+@media (max-width: 1025px) {
+    body {
+        overflow-x: hidden;
+    }
 }
